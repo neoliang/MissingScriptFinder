@@ -143,7 +143,7 @@ public static class MissingScriptFinder
             yield return prop.pptrValue as GameObject;
         }
     }
-    [MenuItem(MENU_ROOT + "FindIn open Scene")]
+    [MenuItem(MENU_ROOT + "search in scene")]
     public static void FindMissingReferencesInCurrentScene()
     {
         var objs = SceneRoots();
@@ -156,7 +156,7 @@ public static class MissingScriptFinder
         EditorUtility.ClearProgressBar();
     }
 
-    [MenuItem(MENU_ROOT + "FindInAssets")]
+    [MenuItem(MENU_ROOT + "search in all assets")]
     public static void MissingSpritesInAssets()
     {
         var allScriptsIds = findAllScriptUUIDsInAssets();

@@ -1,5 +1,7 @@
 # MissingScriptFinder
-A Unity editor extension for finding all missing script references in your project
+A Unity editor extension for finding all missing script references in your project.
+
+It's faster than solution at https://github.com/liortal53/MissingReferencesUnity
 
 #usage:
 1.Copy MissingScriptFinder.cs to you editor directory.
